@@ -1,6 +1,5 @@
 body {
-	background-image: url();
-	background-color: white;
+	background-image: url("http://wallpapercave.com/wp/kF7ovcH.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -9,9 +8,11 @@ body {
 
 
 h1 {
+	position:relative;
+	top:150px;
+	left: 15%;
 	color: black;
-	margin-left: 18%;
-
+	margin-left: 4%;
 
 }
 h2 {
@@ -31,34 +32,68 @@ p {
 
 li {color: black;
 
-
 }
 
-ul {
 
+ul {
      border-width: 1px;
      padding: 10px 145px;
+     margin-top: 15%;
      border-color: #FACC2E;
 
  }
 
- #rectangle {
- 			border-style: solid;
- 			border-width: 3px;
- 			background-color: #FFF184;
- 			text-align: left;
- 			width: 1000px;
- 			height: 1050px;
+#rectangle { 
+ 			background-image: url("https://thecliparts.com/wp-content/uploads/2016/03/free-scroll-clipart-2.gif");
+ 			background-position: center;
+ 			background-size: 1020px 1200px;
+ 			opacity: 0.9;
+ 			width: 890px;
+ 			height: 1200px;
             padding-right: 22px;
             padding-left: 22px;
- 			margin-left: 23%;
+ 			margin-left: 27%;
+ 			text-align: left;
 	   			font-family: Arial;
 
- 			
- }
-
-#pic { 
-	text-align: center;
-	border-width: 0px;
 }
 
+
+
+#pic { 
+	position: absolute;
+	left: -8.5%;
+	border-width: 0px;
+
+
+}
+
+
+#ingredienten {
+				position:relative;
+				top:113px;
+				text-align: center;
+
+}
+
+
+#info  {	
+			background-image: url("http://www.motherofthemoon.co.uk/ekmps/shops/moonraven/images/fancy-paper-scroll-vellum-10-sheets-1887-p.jpg");
+			background-position: center;
+			background-size: 447px 370px;
+			opacity: 0.9;
+			position: absolute;
+			top: 130px;
+			left: 50px;
+			width: 380px;
+			height: 330px;
+			text-align: left;
+			font-family: arial;
+
+
+}
+
+#infotxt { 
+			position: relative;
+			left: -15%;
+}
